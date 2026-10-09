@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://python.org)
-[![PyPI](https://img.shields.io/badge/pip-chief--cli-informational.svg)](#installation)
+[![Install](https://img.shields.io/badge/install-curl%20%7C%20bash-3775a9.svg)](#installation)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](#)
 
 -----------------
@@ -16,15 +16,16 @@ Use it to script and inspect the platform without the web wizard: list and fetch
 ## Installation
 
 ```bash
-pip install chief-cli
+curl -fsSL https://downloads.badgechief.com/cli/install.sh | bash
 ```
 
-From source:
+From source (a clone of this repo):
 
 ```bash
-cd cli
 pip install -e .
 ```
+
+`chief-cli` is not published on PyPI; use the installer above or a source install.
 
 Standalone binary:
 
